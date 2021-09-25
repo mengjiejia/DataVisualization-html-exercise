@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form </title>
+
+</head>
+<style>
+    h1 {font-size: 40px;}
+    p {font-size: 20px;}
+</style>
+
+<body>
+    <h1>Sample Form</h1>
+    <p >Choose a topic, and research interest for the individual visualization project.</p>
+    <p style="color: red;" >*Required</p>
+    <br>
+<form action="/action_page.php">
+
+    <label for="Email">Email</label> <label style="inline-size: auto; color: red;">*</label> <br>
+    <input id="Email" type="email" placeholder="Your email" required> <br><br>
+
+    <label for="Firstname">Firstname</label><br>
+    <input id="Firstname" type="text" placeholder="Your answer"><br><br>
+
+    <label for="Lastname">Lastname</label><br>
+    <input id="Lastname" type="text" placeholder="Your answer"><br><br>
+
+    <label for="Research">Research interest(list at least 3)</label>
+    <label style="inline-size: auto; color: red;">*</label><br>
+    <input id="Research" type="text" placeholder="Your answer" required><br><br>
+
+    <label for="Project">Project Title - (e.g. income vs education US Census)</label>
+    <label style="inline-size: auto; color: red;">*</label>
+    <br>
+    <input id="Project" type="text" placeholder="Your answer" required><br><br>
+
+    <label>Top Skills</label> <label style="inline-size: auto; color: red;">*</label>
+    <br>
+
+    <input id="skill1" type="checkbox" name="skill1" value="SQL"> 
+    <label for="skill1">SQL</label><br>
+
+    <input id="skill2" type="checkbox" name="skill2" value="Python">
+    <label for="skill2">Python programming</label><br>
+    
+    <input id="skill3" type="checkbox" name="skill3" value="Matlab">
+    <label for="skill3">Matlab</label><br>
+
+    <input id="skill4" type="checkbox" name="skill4" value="D3js and Javascript">
+    <label for="skill4">D3js and Javascript</label><br>
+
+    <input id="skill5" type="checkbox" name="skill5" value="C# VB.net">
+    <label for="skill5">C# VB.net</label><br>
+
+    <input id="skill6" type="checkbox" name="skill6" value="PHP">
+    <label for="skill6">PHP</label><br>
+
+    <input id="skill7" type="checkbox" name="skill7" value="Node.JS">
+    <label for="skill7">Node.JS</label><br>
+
+    <input id="skill8" type="checkbox" name="skill8" value="Web">
+    <label for="skill8">Web design tools(e.g. Wordpress)</label><br>
+
+    <input id="skill9" type="checkbox" name="skill9" value="HTML">
+    <label for="skill9">HTML and CSS</label><br>
+
+    <input id="skill10" type="checkbox" name="skill10" value="Excel">
+    <label for="skill10">Excel</label><br>
+
+    <input id="skill1" type="checkbox" name="skill11" value="PowerBI">
+    <label for="skill11">PowerBI</label><br>
+
+    <input id="skill12" type="checkbox" name="skill12" value="Tableau">
+    <label for="skill12">Tableau</label><br>
+
+    <input id="skill13" type="checkbox" name="skill13" value="Option13">
+    <label for="skill13">Option13</label><br>
+
+    <input id="skill14" type="checkbox" name="skill14" value="Other">
+    <label for="skill14">Other:</label>
+    <input id="skill14" type="text" style="inline-size: auto;"><br>
+
+    <br>
+    <br>
+    <label for="Suggestions">Suggestions or Questions</label><br>
+    <input id="Suggestions" type="text" placeholder="Your answer"><br><br>
+
+    <input type="submit" value="Submit">
+
+    <br>
+    <br>
+    
+</form>
+
+
+</body>
+</html>
